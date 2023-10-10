@@ -1,0 +1,136 @@
+div {
+    text-align: center;
+margin-left: auto;
+filter: drop-shadow(10px 10px 5px #bdbdbd);
+  }
+.title {
+text-align: left;
+font-family: "bely-display", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 48px;
+margin-top: 50x;
+margin-left: 20%;
+margin-bottom:0px;
+}
+.subtitle {
+text-align: left;
+font-family: Helvetica Neue;
+font-style: regular;
+font-size: 24px;
+margin-top: 18px;
+margin-left: 20%;
+margin-right: 14%;
+letter-spacing: 0.25px;
+color:#bababa
+}
+.p1 {
+text-align: left;
+font-family: Helvetica Neue;
+font-style: regular;
+font-size: 16px;
+margin-top: 18px;
+margin-left: 20%;
+margin-bottom: 4px;
+color: #27ae60;
+}
+
+.p2 {
+text-align: left;
+font-family: Helvetica Neue;
+font-style: regular;
+font-size: 12px;
+margin-top: 0px;
+margin-left: 20%;
+color:#bababa
+}
+.p3 {
+text-align: left;
+font-family: times new roman;
+font-style: regular;
+font-size: 24px;
+margin-top: 0px;
+margin-left: 20%;
+margin-right: 15%;
+text-decoration: underline;
+}
+
+.maintext {
+text-align: left;
+font-family: baskerville;
+font-weight: 400;
+font-style: normal;
+font-size: 18px;
+line-height: 24px;
+margin-top: 0px;
+margin-left: 20%;
+margin-right: 18%;
+}
+
+.img2 {
+text-align: center;
+margin-left: 19.5%;
+filter: drop-shadow(10px 10px 5px #bdbdbd);
+height: 100%;
+width: 63%;
+margin-top: 4.5%;
+margin-bottom: 3.5%;
+}
+
+.maintext1 {
+text-align: center;
+font-family: times new roman;
+font-style: regular;
+font-size: 48px;
+margin-top: 0px;
+margin-left: 20%;
+margin-right: 18%;
+}
+.quote {
+text-align: center;
+color: #7f8c8d;
+margin-left: 24%;
+margin-right: 24%;
+font-size: 24px;
+font-family: Helvetica Neue;
+font-style: Light; 
+}
+
+.box {
+position:fixed;
+  width:60px;
+  height:40px;
+  bottom:40px;
+  right:40px;
+  background-color:#bfa9f7;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+line-height:36px;
+  box-shadow: 1px 1px 1px #bababa;
+}/* Paste CSS tab from CodePen here */
+
+.flexbox {
+display: flex;
+flex-direction: column;
+flex: 2;
+flex-wrap: nowrap;
+background-color: rgb(236, 241, 249);
+display: flex;
+flex-wrap: nowrap;
+background-color: rgba(237, 225, 253, 0.302);
+}
+
+.flexbox > div {
+    background-color: #f4e1f6;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "bely-display", sans-serif" ;
+
+  }
